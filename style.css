@@ -1,0 +1,101 @@
+
+#p1{
+	text-align:center;
+}
+body{
+	background-image: url('background.PNG');
+	background-size:cover;
+	font-family: impact, sans-serif;
+}
+nav{
+	background-color:#ceb39c;
+	overflow: hidden;
+}
+nav a{
+	float:left;
+	text-align: center;
+	padding:14px 15px;
+	text-decoration: none;
+	font-size:20px;
+	color:white;
+	font-family:impact,sans-serif;
+}
+nav a:hover{
+	background-color:#c2a083;
+}
+nav a.active{
+	background-color:#e7d9cd;
+}
+#landing{
+	height:300px;
+	width:700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition:1s;
+}
+#landing:hover{
+	height:500px;
+	width:900px;
+}
+img{
+	border-radius:5%;
+}
+#capy{
+	height:100px;
+	width:100px;
+}
+#par1{
+	height:150px;
+	width:500px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#p2{
+	text-align:center;
+	font-family: impact,sans-serif;
+}
+#emz{
+	margin-left: auto;
+	margin-right: auto;
+}
+#debby{
+	height:100px;
+	width:100px;
+}
+#t1{
+	margin-right:auto;
+	margin-left:auto;
+}
+#boom{
+	font-family: impact,sans-serif;
+}
+#t2, #t3, #t4{
+	margin-right:auto;
+	margin-left:auto;
+}
+#back, #next{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	height: 50px;
+	width:200px;
+	transition:1s;
+}
+#back:hover, #next:hover{
+	width:300px;
+}
+#p5{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#form1{
+	border:solid;
+	background-color:#f7d8b5;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+}

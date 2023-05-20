@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HIRING!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function myFunction() {
+        var uname = document.getElementById("userName").value;
+        var skillLevels = document.getElementsByName("skill");
+        var level = "";
+
+        for (var i = 0; i < skillLevels.length; i++) {
+            if (skillLevels[i].checked) {
+                level = skillLevels[i].value;
+                break;
+            }
+        }
+
+        alert("Hello, " + uname + "! It seems as of now you are a " + level + ". It is time to start your journey in the web developer guild!");
+    }
+</script>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="hiring.html">Hiring</a>
+    </nav>
+    
+    <br><br><br><br>
+
+    <div>
+        <img src="p5.png" id="p5">
+    </div>
+
+    <br><br><br><br>
+
+    <table id="t4">
+        <tr>
+            <td>
+                <form id="form1" onsubmit="return myFunction();">
+                    <label for="userName">Input your name here: </label>
+                    <input type="text" id="userName">
+                    <br><br>
+                    <label for="yourAge">Input your age here:   </label>
+                    <input type="number" id="yourAge" min="1" max="120">
+                    <p>How much experience do you have?</p>
+                    <input type="radio" id="beginner" value="Beginner">
+                    <label for="beginner">Beginner</label>
+                    <input type="radio" id="novice" value="Novice" name="skill">
+                    <label for="novice">Novice</label>
+                    <input type="radio" id="competent" value="Competent" name="skill">
+                    <label for="competent">Competent</label>
+                    <input type="radio" id="proficient" value="Proficient" name="skill">
+                    <label for="proficient">Proficient</label>
+                    <input type="radio" id="expert" value="Expert" name="skill">
+                    <label for="expert">Expert</label>
+                    <br><br>
+                    <input type="submit" value="Submit Form">
+                </form>
+            </td>
+            <td>
+                <form>
+                    
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
